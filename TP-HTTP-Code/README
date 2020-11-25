@@ -1,0 +1,13 @@
+Here are the steps to launch the application
+
+1) Launch a terminal in ResoHTTP/lib folder on your computer.
+2) Execute command line : 'java -jar server.jar'
+3) Launch Postman or any software handling http requests
+4) You can call all these types of requests :
+- GET http://localhost:3000/<resource to get> HTTP/1.0
+- PUT http://localhost:3000/<resource to put> HTTP/1.0 and add in the body the ressource you want to add
+- POST http://localhost:3000/<resource to modify> HTTP/1.0 and add in the body the text you want to insert
+- DELETE http://localhost:3000/<resource to delete> HTTP/1.0
+- HEAD http://localhost:3000/<resource on which you want to get the HEAD> HTTP/1.0
+
+Files extensions supported : html, jpeg, png, mp3, mp4, pdf
